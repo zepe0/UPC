@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid black;
+  width: 10rem;
+  height: 25px;
+  padding: 4px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-decoration: none;
+}
+
+div {
+  background-image: url(/EjerciociosCSS/IMG/chequeblack.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 8px;
+}
+nav a:hover {
+  background: #e4e4e4;
+}
+nav a:hover div {
+  background-image: url(/EjerciociosCSS/IMG/cheque.png);
+}
