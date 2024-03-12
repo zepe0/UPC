@@ -1,0 +1,51 @@
+tbody td,
+thead th {
+  border: 0.5px solid #333;
+  padding: 4px;
+}
+table {
+  border-spacing: 0;
+  border-collapse: separate;
+  text-align: center;
+}
+
+td:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: #e6f3ff;
+}
+tr:nth-child(odd) {
+  background: #ffffcc;
+}
+th {
+  background: grey;
+}
+.dolar {
+  background-image: url(/EjerciociosCSS/IMG/dolar.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.euro {
+  background-image: url(/EjerciociosCSS/IMG/euro.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.libra {
+  background-image: url(/EjerciociosCSS/IMG/libra.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.yen {
+  background-image: url(/EjerciociosCSS/IMG/yen.png);
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+
+table tbody tr:hover td {
+  background: rgb(0, 255, 85) !important;
+}
