@@ -10,6 +10,7 @@ ul li {
   padding: 0;
   list-style: none;
 }
+
 h1,
 h2,
 h3,
@@ -18,9 +19,11 @@ form {
   margin: 0;
   padding: 0;
 }
+
 .clear {
   clear: both;
 }
+
 img {
   border: none;
 }
@@ -46,25 +49,31 @@ img {
 #cabecera {
   clear: both;
 }
+
 #menu {
   clear: both;
 }
+
 #lateral {
   float: left;
   width: 20%;
 }
+
 #contenido {
   float: right;
   width: 78%;
 }
+
 #contenido #principal {
   float: left;
   width: 78%;
 }
+
 #contenido #secundario {
   float: right;
   width: 20%;
 }
+
 #pie {
   clear: both;
 }
@@ -73,6 +82,7 @@ img {
 #cabecera #logo {
   float: left;
 }
+
 #cabecera #buscador {
   float: right;
 }
@@ -93,6 +103,7 @@ img {
 #pie .enlaces {
   float: left;
 }
+
 #pie .copyright {
   float: right;
 }
@@ -101,47 +112,110 @@ img {
    A partir de aquí, se pueden añadir todos los estilos propios que 
    sean necesarios.
    ================================================================== */
+
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.4;
+  color: black;
+}
+
+h2.articulo {
+  color: #CC6600;
+  font-size: 1.6em;
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+
+#cabecera,
+#menu,
+#lateral,
+#contenido,
+#contenido #principal,
+#contenido #secundario,
+#pie {
+  border: none;
+}
+
 #cabecera {
   padding: 1em;
 }
+
 #menu {
   padding: 0.5em;
   margin-bottom: 0.5em;
-  border: 1px solid #004c99;
+  border-bottom: 1px solid #004c99;
+  background-image: url("img/afondo_menu.gif");
 }
+
 #noticias {
   border: 1px solid #c5c5c5;
 }
+
 #publicidad {
-  border: 1px unset red;
-  border-style: unset;
-  display: inline !important;
+  border: 1px dashed #CC6600;
+
 }
-#publicidad p,
-h3 {
-  padding: 0.5em;
-  display: block !important;
+
+
+#secundario {
+  border: 2px solid #CC6600 !important;
+
 }
+
 #noticias,
 #publicidad,
 #principal,
 #secundario {
   padding: 0.5em;
 }
+
 #pie {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin-top: 1em;
 }
+
+#noticias,
+#pie {
+  background: #F8F8F8;
+}
+
 .articulo {
   margin: 1em;
 }
+
 img {
   margin: 0.5em;
+
 }
+
 #publicidad {
   margin-top: 1em;
+  background: #FFF6CD;
 }
-* {
-  box-sizing: border-box;
+
+#pie {
+  border-bottom: 1px solid #c5c5c5;
+  border-top: 1px solid #c5c5c5;
+}
+
+#secundario h2 {
+  padding: .2em;
+  background: #DB905C;
+}
+
+#logo {
+  background-image: url("img/logo.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#logo h1 {
+  visibility: hidden;
 }
