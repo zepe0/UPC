@@ -1,55 +1,70 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .red {
-    color: red;
+  color: red;
 }
 
 fieldset {
-    border: none;   
-    
+  border: none;
 }
 
 form {
-    display: flex;
-    flex-direction: row;
-    width: 98%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
 }
 
 label {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-
 legend {
-    font-size: 16px;
-    font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .dos-inputs {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    margin: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-top: 5px;
+}
+label {
+  display: block;
 }
 
-
 fieldset:hover {
-    background: yellow;
+  background: yellow;
 }
 
 li {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 fieldset {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.fiel-tel {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.button {
+  margin-left: auto;
+  margin-top: 10px;
+}
+
+.campo-nombre {
+  width: 50%;
 }
