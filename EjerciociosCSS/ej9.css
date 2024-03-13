@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 li {
     list-style: none;
 }
@@ -6,6 +10,46 @@ li {
     color: red;
 }
 
-li:hover {
+fieldset {
+    border: none;   
+    
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+}
+
+label {
+    font-size: 10px;
+}
+
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dos-inputs {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    margin: 4px;
+}
+
+
+fieldset:hover {
     background: yellow;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }

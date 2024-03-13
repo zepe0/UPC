@@ -5,42 +5,81 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" type="text/css" href="ej9.css" title="style" />
-  <title>Ej 8 Menu</title>
+  <title>Ej 9 Menu</title>
 </head>
 
 <body>
 
-  <li>
-    <form action="">
-      <label for="">Nombres y apellidos <span class="red">*</span></label>
-      <input type="text">
-      <label>Primer apellido</label>
-      <input type="text">
-      <label>Segundo apellido</label>
-      <input type="text">
-  </li>
+  <form action="">
+    <div>
+      <li>
+        <fieldset>
+          <legend>Nombres y apellidos <span class="red">*</span></legend>
+          <input type="text">
+          <label for="">Nombre</label>
+          <input type="text">
+          <label>Primer apellido</label>
+          <input type="text">
+          <label>Segundo apellido</label>
+        </fieldset>
+      </li>
 
-  <li>
-    <label for="">Email</label>
-    <input type="text" id="email">
-  </li>
-  <li>
+      <li>
+        <fieldset>
+          <legend>Email</legend>
+          <input type="text" id="email">
+        </fieldset>
+      </li>
+    </div>
+    <div>
 
-    <label for="">Dirección <span class="red">*</span>
-      <input type="text">
-      <label>Nombre</label>
-      <input type="text">
-      <label>Nombre</label>
-      <input type="text">
-      <label>Nombre</label>
-      <input type="text">
-      <label>Nombre</label>
-      <input type="text">
-  </li>
-  <li>
-    <label for="">Teléfono<span class="red">*</span><input type="text"><input type="text"></label>
-    </form>
-  </li>
+
+      <li>
+        <fieldset>
+          <legend>Dirección <span class="red">*</span></legend>
+
+          <input type="text">
+          <label>Calle</label>
+          <div class="dos-inputs">
+            <input type="text">
+            <label>Municipio</label>
+            <input type="text">
+            <label>Codigo postal</label>
+          </div>
+          <div class="dos-inputs">
+            <div class="bot-input">
+              <label>Provincia</label>
+              <input type="text">
+
+            </div>
+            <label>País</label>
+            <input type="text">
+          </div>
+
+        </fieldset>
+
+      </li>
+
+      <li>
+        <fieldset>
+          <legend>
+            Teléfono <span class="red">*</span>
+          </legend>
+
+          <input type="text">
+          <label>Fijo</label>
+          <input type="text">
+          <label>Movil</label>
+        </fieldset>
+
+      </li>
+
+    </div>
+
+
+  </form>
+  <hr>
+  <button>Darme de alta</button>
 
 </body>
 
