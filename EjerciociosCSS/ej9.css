@@ -1,0 +1,11 @@
+li {
+    list-style: none;
+}
+
+.red {
+    color: red;
+}
+
+li:hover {
+    background: yellow;
+}
