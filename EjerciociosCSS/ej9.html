@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="ej9.css" title="style" />
-    <title>Ej 9 Menu</title>
-  </head>
 
-  <body>
-    <h1>Formulario de alta</h1>
-    <form action="" >
-      <div class="campo-nombre">
-        <ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="ej9.css" title="style" />
+  <title>Ej 9 Menu</title>
+</head>
+
+<body>
+  <h1>Formulario de alta</h1>
+  <form action="">
+    <div class="campo-nombre">
+      <ul>
         <li>
           <fieldset>
             <legend>Nombres y apellidos <span class="red">*</span></legend>
-            <input type="text" required/>
+            <input type="text" required />
             <label for="">Nombre</label>
             <input type="text" required />
             <label>Primer apellido</label>
@@ -30,101 +31,103 @@
             <input type="text" id="email" />
           </fieldset>
         </li>
-      </div>
-      <div class="campo-nombre">
-        <li>
-          <fieldset>
-            <legend>Dirección <span class="red">*</span></legend>
+    </div>
+    <div class="campo-nombre">
+      <li>
+        <fieldset>
+          <legend>Dirección <span class="red">*</span></legend>
 
-            <input type="text"required />
-            <label>Calle</label>
-            <div class="dos-inputs">
-              <div>
-                <input type="text"required />
-                <label>Código postal</label>
-              </div>
-              <div>
-                <input type="text"class="input" />
-                <label>Municipio</label>
-              </div>
-            </div>
-            <div class="dos-inputs">
-              <div class="bot-input">
-                <select name="pais">
-                  <option value="0" label=""  selected="selected"> </option>
-                 
-                  <option value="">Elige Provincia</option>
-                  <option value="Álava/Araba">Álava/Araba</option>
-                  <option value="Albacete">Albacete</option>
-                  <option value="Alicante">Alicante</option>
-                  <option value="Almería">Almería</option>
-                  <option value="Asturias">Asturias</option>
-                  <option value="Ávila">Ávila</option>
-                  <option value="Badajoz">Badajoz</option>
-                  <option value="Baleares">Baleares</option>
-                  <option value="Barcelona">Barcelona</option>
-                  <option value="Burgos">Burgos</option>
-                  <option value="Cáceres">Cáceres</option>
-                  <option value="Cádiz">Cádiz</option>
-                  <option value="Cantabria">Cantabria</option>
-                  <option value="Castellón">Castellón</option>
-                  <option value="Ceuta">Ceuta</option>
-                  <option value="Ciudad Real">Ciudad Real</option>
-                  <option value="Córdoba">Córdoba</option>
-                  <option value="Cuenca">Cuenca</option>
-                  <option value="Gerona/Girona">Gerona/Girona</option>
-                  <option value="Granada">Granada</option>
-                </select>
-                     
-                <label>Provincia</label>
-              </div>
-              <div>
-                <select name="country"  >
-                  <option value="0" label=""  selected="selected"> </option>
-                  <optgroup id="country-optgroup-Africa" label="Africa">
-                      <option value="DZ" label="Algeria">Algeria</option>
-                      <option value="AO" label="Angola">Angola</option>
-                      <option value="BJ" label="Benin">Benin</option>
-                      <option value="BW" label="Botswana">Botswana</option>                      
-                      <option value="CG" label="Congo - Brazzaville">Congo - Brazzaville</option>
-                      <option value="CD" label="Congo - Kinshasa">Congo - Kinshasa</option>
-                      <option value="CI" label="Côte d’Ivoire">Côte d’Ivoire</option>
-                      <option value="DJ" label="Djibouti">Djibouti</option>
-                      <option value="EG" label="Egypt">Egypt</option>        
-                      <option value="LR" label="Liberia">Liberia</option>                     
-                      <option value="MG" label="Madagascar">Madagascar</option>             
-                      <option value="ML" label="Mali">Mali</option>
-                      <option value="MR" label="Mauritania">Mauritania</option>
-                      <option value="MU" label="Mauritius">Mauritius</option>
-                     
-                      </optgroup>>
-
-                </select>
-                <label>País</label>
-              </div>
-            </div>
-          </fieldset>
-        </li>
-
-        <li>
-          <fieldset class="fiel-tel">
-            <legend>Teléfono <span class="red">*</span></legend>
+          <input type="text" required />
+          <label>Calle</label>
+          <div class="dos-inputs">
             <div>
-              <input type="text" />
-              <label>Fijo</label>
+              <input type="text" required />
+              <label>Código postal</label>
             </div>
             <div>
+              <input type="text" class="input" />
+              <label>Municipio</label>
+            </div>
+          </div>
+          <div class="dos-inputs">
+            <div class="bot-input">
+              <select name="pais">
+                <option value="0" label="" selected="selected"> </option>
+
+                <option value="">Elige Provincia</option>
+                <option value="Álava/Araba">Álava/Araba</option>
+                <option value="Albacete">Albacete</option>
+                <option value="Alicante">Alicante</option>
+                <option value="Almería">Almería</option>
+                <option value="Asturias">Asturias</option>
+                <option value="Ávila">Ávila</option>
+                <option value="Badajoz">Badajoz</option>
+                <option value="Baleares">Baleares</option>
+                <option value="Barcelona">Barcelona</option>
+                <option value="Burgos">Burgos</option>
+                <option value="Cáceres">Cáceres</option>
+                <option value="Cádiz">Cádiz</option>
+                <option value="Cantabria">Cantabria</option>
+                <option value="Castellón">Castellón</option>
+                <option value="Ceuta">Ceuta</option>
+                <option value="Ciudad Real">Ciudad Real</option>
+                <option value="Córdoba">Córdoba</option>
+                <option value="Cuenca">Cuenca</option>
+                <option value="Gerona/Girona">Gerona/Girona</option>
+                <option value="Granada">Granada</option>
+              </select>
+
+              <label>Provincia</label>
+            </div>
+            <div>
+              <select name="country">
+                <option value="0" label="" selected="selected"> </option>
+                <optgroup id="country-optgroup-Africa" label="Africa">
+                  <option value="DZ" label="Algeria">Algeria</option>
+                  <option value="AO" label="Angola">Angola</option>
+                  <option value="BJ" label="Benin">Benin</option>
+                  <option value="BW" label="Botswana">Botswana</option>
+                  <option value="CG" label="Congo - Brazzaville">Congo - Brazzaville</option>
+                  <option value="CD" label="Congo - Kinshasa">Congo - Kinshasa</option>
+                  <option value="CI" label="Côte d’Ivoire">Côte d’Ivoire</option>
+                  <option value="DJ" label="Djibouti">Djibouti</option>
+                  <option value="EG" label="Egypt">Egypt</option>
+                  <option value="LR" label="Liberia">Liberia</option>
+                  <option value="MG" label="Madagascar">Madagascar</option>
+                  <option value="ML" label="Mali">Mali</option>
+                  <option value="MR" label="Mauritania">Mauritania</option>
+                  <option value="MU" label="Mauritius">Mauritius</option>
+
+                </optgroup>>
+
+              </select>
+              <label>País</label>
+            </div>
+          </div>
+        </fieldset>
+      </li>
+
+      <li>
+        <fieldset class="fiel-tel">
+          <legend>Teléfono <span class="red">*</span></legend>
+          <div>
             <input type="text" />
-            <label>Móvil</label>
-            </div>
-        </li>
-      </div>      
-      <hr>
+            <label>Fijo</label>
+          </div>
+          <div class="movil">
+            <input type="text" />
+            <label id="movil">Móvil</label>
+          </div>
+          <p class="escone">hola me escondo al selecionarme</p>
+      </li>
+    </div>
+    <hr>
     <li class="button">
-      <button >Darme de alta</button>
+      <button>Darme de alta</button>
     </li>
-  </ul>
-      
-    </form>
-  </body>
+    </ul>
+
+  </form>
+</body>
+
 </html>
