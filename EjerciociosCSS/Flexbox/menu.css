@@ -1,0 +1,94 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.menu_li {
+    list-style: none;
+    background: blueviolet;
+    padding: 5px;
+    width: 120px;
+    border: 1px solid rgb(59, 37, 80);
+    text-align: center;
+    transition: all;
+
+}
+
+a {
+    text-decoration: none;
+    color: chocolate;
+    text-transform: uppercase;
+
+}
+
+.menu_li:hover {
+    background: rgb(0, 255, 157);
+    border: 2px solid rgb(59, 37, 80);
+    scale: 1.1;
+    animation: rotateAnimation 2s infinite;
+    ;
+
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+
+    .menu {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/* -------    > EJ 2   <-------*/
+
+li {
+    list-style: none;
+    text-align: justify;
+    background: rgba(123, 198, 199, 0.8);
+}
+
+
+
+.lista-ej-dos {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    width: 1fr;
+
+
+}
+
+.lista-ej-dos>li {
+    padding: 6px;
+    max-width: 100px;
+
+}
+
+/* ------ EJ 3 ------ */
+.cuadro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background: #1c5f45;
+    text-align: center;
+}
+
+.mig {
+    display: flex;
+    justify-content: center;
+}
