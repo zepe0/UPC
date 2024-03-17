@@ -1,0 +1,64 @@
+body {
+  padding: 8px;
+  background-image: url("https://img.freepik.com/foto-gratis/concepto-formas-geometricas-armarios_23-2148518432.jpg?t=st=1710702013~exp=1710705613~hmac=7872fb1e38d9b11eefb8c889d339f057a18176f74c2a84cb1e577f55be86a27f&w=1380");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1,
+h2 {
+  text-align: center;
+}
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #2ecba994;
+  width: 140px;
+  height: 40px;
+  text-transform: uppercase;
+  color: #caf729;
+  border: 0.2rem solid #888dda;
+}
+.palet {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  border: #888dda solid 2px;
+  margin: 10px;
+}
+a:hover {
+  transform: scale(1.1);
+} 
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #79dd7e8f;
+}
+.texto {
+  background: #caf729;
+  color: black;
+  padding: 3px;
+}
+.bg-a {
+  background: #2ecbaa;
+  color: black;
+  padding: 3px;
+}
+.bordes {
+  background: #888dda;
+  color: black;
+  padding: 3px;
+}
+.bg-n {
+  background: #79dd7e;
+  color: black;
+  padding: 3px;
+}
+.contenido {
+  margin-top: 20px;
+}
