@@ -1,62 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css" title="style" />
-    <link rel="icon" type="image/x-icon" href="/EjerciociosCSS/IMG/logo.gif"></link>
-    <script >
-      function closeiframes(){
-        document.querySelector("#res").innerHTML=""
+    <link rel="icon" type="image/x-icon" href="/EjerciociosCSS/IMG/logo.gif" />
+    <script>
+      function closeiframes() {
+        document.querySelector("#res").innerHTML = "";
       }
-    function fo(){
-     const selectEj =event.target.attributes[0].value     
-     document.querySelector("#res").innerHTML=  `<button onclick="closeiframes()">X</button>
+      function fo() {
+        const selectEj = event.target.attributes[0].value;
+        document.querySelector(
+          "#res"
+        ).innerHTML = `<button onclick="closeiframes()">X</button>
      <iframe src="${selectEj}" width="100%" class="mostrar-contenido"></iframe>
      
-     `     
-    } 
+     `;
+      }
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-    
-
     <div class="palet">
-        <p>Paleta de colores:</p>        
-        <p><span class="texto">#caf729</span> &#8594<span>Texto</span></p>
-        <p><span class="bg-a">#2ecbaa</span>&#8594<span>BG-a</span></p>
-        <p><span class="bordes">#888dda</span>&#8594<span>Bordes</span></p>
-        <p><span class="bg-n">#79dd7e</span>&#8594<span>BG-menu</span></p>
+      <p>Paleta de colores:</p>
+      <p><span class="texto">#caf729</span> &#8594; <span>Texto</span></p>
+      <p><span class="bg-a">#2ecbaa</span>&#8594;<span>BG-a</span></p>
+      <p><span class="bordes">#888dda</span>&#8594;<span>Bordes</span></p>
+      <p><span class="bg-n">#79dd7e</span>&#8594;<span>BG-menu</span></p>
     </div>
     <!-- Short Code HTML icon
         
-       -- &#128194; código de carpeta 
+       -- &#128194; Código de carpeta 
        -- &#8594;  Código Flecha
      -->
-    <h1>M0-1 &#8594 HTML Y CSS PROGRAMACIÓN WEB EN ENTORNO CLIENT</h1>
-    <a href="#MO2" > Modulo 2</a>
-    <hr>
+    <h1>M0-1 &#8594; HTML Y CSS PROGRAMACIÓN WEB EN ENTORNO CLIENT</h1>
+    <a href="#MO2"> Modulo 2</a>
+    <hr />
     <div class="contenidoM01">
-    
       <div>
-        <a href="ejercico1.html" target="_blank" class="oculto" onmousemove="fo()">&#128194;ej1</a>
-        <a href="ejercico2.html" target="_blank" onmousemove="fo()">&#128194;ej2</a>
-        <a href="ejercico3.html" target="_blank" onmousemove="fo()">&#128194;ej3 </a>
+        <a
+          href="ejercico1.html"
+          target="_blank"
+          class="oculto"
+          onmousemove="fo()"
+          >&#128194;ej1</a
+        >
+        <a href="ejercico2.html" target="_blank" onmousemove="fo()"
+          >&#128194;ej2</a
+        >
+        <a href="ejercico3.html" target="_blank" onmousemove="fo()"
+          >&#128194;ej3
+        </a>
         <a href="ej7.html" target="_blank" onmousemove="fo()">&#128194;ej7</a>
         <a href="ej8.html" target="_blank" onmousemove="fo()">&#128194;ej8</a>
         <a href="ej9.html" target="_blank" onmousemove="fo()">&#128194;ej9</a>
-        <a href="../GitApi/index.html" target="_blank" onmousemove="fo()">&#128194; Git Api</a>
-        <a href="Flexbox/menuflex.html" target="_blank" onmousemove="fo()">&#128194; Menu Flex</a>
-        <a href="test.html" target="_blank" onmousemove="fo()">&#128194; Test</a>
-      
-        
+        <a href="../GitApi/index.html" target="_blank" onmousemove="fo()"
+          >&#128194; Git Api</a
+        >
+        <a href="Flexbox/menuflex.html" target="_blank" onmousemove="fo()"
+          >&#128194; Menu Flex</a
+        >
+        <a href="test.html" target="_blank" onmousemove="fo()"
+          >&#128194; Test</a
+        >
       </div>
-        <div class="contenido" id="res">
-
-        </div>
-        
-
+      <div class="contenido" id="res"></div>
     </div>
     <section id="MO2">
       <h1>Modulo 2 JavaScript</h1>
@@ -72,7 +81,5 @@
         <a href="#" target="_blank">&#128194;</a>
       </nav>
     </section>
-
-    
   </body>
 </html>
