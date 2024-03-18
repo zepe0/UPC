@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="test.css" title="style" />
+    <link rel="icon" type="image/x-icon" href="/EjerciociosCSS/IMG/logo.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Els nostres productes de proximitat</title>
+   
+  </head>
+  <body>
+    <h1>La botiga que t’ofereix productes de proximitat</h1>
+    <nav>
+        <a href="#Frutas" class="tablaid">Tablas</a>
+      <a href="#Frutas">Frutas</a>
+      <a href="#Verdura">Verdura</a>
+      <a href="#Pescado">Pescado</a>
+    </nav>
+
+    <table>
+      <caption>
+        Frutas
+      </caption>
+      <tr>
+        <th>Nombre</th>
+        <th>IMG</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td>Peral 'Louise Bonne'</td>
+        <td><img src="https://www.planfor.es/Donnees_Site/Produit/Images/0119/peral-louise-bonne_ES_100_0003321.jpg"></td>
+        <td>El peral adornará perfectamente los medios y grandes jardines. En un jardín pequeño, optaremos más bien por una forma palizada que le ocupará menos sitio. </td>
+        <td>64.50€</td>
+      </tr>
+      <tr>
+        <td>Plátanos de Canarias maduro</td>
+        <td><img src="https://comefruta.es/wp-content/uploads/platanos-de-canarias.jpg.webp"></td>
+        <td>Plátanos de Canarias verdes. El plátano, como la mayor parte de frutas tropicales, como mejor madura es a temperatura ambiente.</td>
+        <td>7.35€</td>
+      </tr>
+    </table>
+
+    <table>
+      <caption>
+        Verduras
+      </caption>
+      <tr>
+          <th>Nombre</th>
+          <th>IMG</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td>Cebolla</td>
+        <td><img src="IMG/ceba.jpg"> </td>
+        <td>La cebolla o Allium cepa L. es una hortaliza de la familia de las Liliaceae. Su bulbo es comestible y presenta una estructura globosa, esférica o elipsoidal, de un diámetro que oscila entre los 3-10 cm, pesando de media entre 100-250 g.</td>
+        <td>2.39€</td>
+      </tr>
+      <tr>
+        <td>Guisantes</td>
+        <td><img src="https://media.verdecora.es/1279772-pdt_540/guisante-ecologico-6-uds.jpg" /> </td>
+        <td>El guisante, arveja o chícharo (Pisum sativum) es la pequeña semilla comestible de la planta que se cultiva para su producción. La planta es una trepadora de 2 m de alto, con zarcillos ramificados y flores blancas o moradas de hasta 30 mm de ancho.</td>
+        <td>2.39€</td>
+      </tr>
+    </table>
+
+    <table>
+      <caption>
+        Pescado
+      </caption>
+      <tr>
+          <th>Nombre</th>
+        <th>IMG</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+      </tr>
+      <tr>
+        <td>Salmón</td>
+        <td> <img src="https://www.peixacasa.cat/wp-content/uploads/2018/02/rodaja-de-salm%C3%B3n.jpg" alt="" srcset=""> </td>
+        <td>El Salmón pertenece a la familia de los (Oncorhynchus gorbuscha). Es una especie Anadromes, y pasa de los mares fríos a los ríos donde se produce la puesta y fertilización de los huevos. En estos permanecerán los alevines por un plazo de unos dos años antes de ir al mar. Cuando comienza la migración es cuando su carne está en mejor momento. Come peces más pequeños, crustáceos e insectos.</td>
+        <td>3.99€</td>
+      </tr>
+      <tr>
+        <td>Salmón</td>
+        <td> <img src="IMG/rape-negro.webp" alt="" srcset=""> </td>
+        <td>Descubre el exquisito sabor del Rape Negro, un tesoro de las profundidades marinas. Con su piel oscura y su carne tierna y sabrosa, este pescado es perfecto para los amantes de los sabores delicados.</td>
+        <td>16.99€</td>
+      </tr>
+    </table>
+
+    <form>
+        <legend>Contactanos</legend>
+    
+    
+    <fieldset class="name">Nombre y apellidos <span> * </span>
+    
+      <div class="input-group-name">
+        <input type="text" id="nombre" name="nombre" required />
+        <label for="nombre">Nombre</label>
+        <input type="text" id="apellido" name="primerapellido" />
+        <label for="nombre">Primer apellido</label>
+        <input type="text" id="apellidoDos" name="segundoapellido" />
+        <label for="nombre">Segundo apellido</label>
+    </fieldset>
+    <fieldset class="email">
+        <div class="tel"><label for="nombre">Email </label></div>
+        <div class="input-group-tel" ><input type="email" id="email" name="email" /></div>
+    </fieldset>
+        <fieldset>
+            <div class="tel">Telefono<span>*</span></div>
+            <div class="input-group-tel" >
+                <div class="input-group-name">
+                    <input type="text" name="Fijo" id="Fijo" class="w-m" required>
+                    <label for="">Fijo</label>
+                </div>
+                <div class="input-group-name">
+                    <input type="text" name="Movil" class="w-m" required>
+                    <label for="">Movil</label>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+    <div><button>Enviar</button></div>
+    </form>
+  </body>
+</html>

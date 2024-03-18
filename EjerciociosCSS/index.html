@@ -3,11 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+    <link rel="icon" type="image/x-icon" href="/EjerciociosCSS/IMG/logo.gif"></link>
+    <script >
+      function closeiframes(){
+        document.querySelector("#res").innerHTML=""
+      }
+    function fo(){
+     const selectEj =event.target.attributes[0].value     
+     document.querySelector("#res").innerHTML=  `<button onclick="closeiframes()">X</button>
+     <iframe src="${selectEj}" width="100%" class="mostrar-contenido"></iframe>
+     
+     `     
+    } 
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
-  
+    
 
     <div class="palet">
         <p>Paleta de colores:</p>        
@@ -21,35 +34,43 @@
        -- &#128194; código de carpeta 
        -- &#8594;  Código Flecha
      -->
-    <h1>Modulo 1 HTML Y CSS</h1>
-    <h2>Ejercicios :</h2>
-    <nav>
-      <a href="ejercico1.html" target="_blank" class="oculto">&#128194;ej1</a>
-      <a href="ejercico2.html" target="_blank">&#128194;ej2</a>
-      <a href="ejercico3.html" target="_blank">&#128194;ej3 </a>
-      <a href="ej7.html" target="_blank">&#128194;ej7</a>
-      <a href="ej8.html" target="_blank">&#128194;ej8</a>
-      <a href="ej9.html" target="_blank">&#128194;ej9</a>
-      <a href="../GitApi/index.html" target="_blank">&#128194;Git Api</a>
-      <a href="Flexbox/menuflex.html" target="_blank">&#128194;Menu Flex</a>
+    <h1>M0-1 &#8594 HTML Y CSS PROGRAMACIÓN WEB EN ENTORNO CLIENT</h1>
+    <a href="#MO2" > Modulo 2</a>
+    <hr>
+    <div class="contenidoM01">
+    
+      <div>
+        <a href="ejercico1.html" target="_blank" class="oculto" onmousemove="fo()">&#128194;ej1</a>
+        <a href="ejercico2.html" target="_blank" onmousemove="fo()">&#128194;ej2</a>
+        <a href="ejercico3.html" target="_blank" onmousemove="fo()">&#128194;ej3 </a>
+        <a href="ej7.html" target="_blank" onmousemove="fo()">&#128194;ej7</a>
+        <a href="ej8.html" target="_blank" onmousemove="fo()">&#128194;ej8</a>
+        <a href="ej9.html" target="_blank" onmousemove="fo()">&#128194;ej9</a>
+        <a href="../GitApi/index.html" target="_blank" onmousemove="fo()">&#128194; Git Api</a>
+        <a href="Flexbox/menuflex.html" target="_blank" onmousemove="fo()">&#128194; Menu Flex</a>
       
-    </nav>
-    <div class="contenido">
-      <iframe src="ejercico1.html" width="100%" class="mostrar-contenido"></iframe>
+        
+      </div>
+        <div class="contenido" id="res">
+
+        </div>
+        
 
     </div>
-    <h1>Modulo 2 JavaScript</h1>
-    <h2>Ejercicios :</h2>
-    <nav>
-      <a href="#" target="_blank">&#128194;</a>
-      <a href="#" target="_blank">&#128194;</a>
-      <a href="#" target="_blank">&#128194;</a>
-      <a href="#" target="_blank">&#128194;</a>
-      <a href="#" target="_blank">&#128194;</a>
-      <a href="#" target="_blank">&#128194;</a>
-      <a href="#" target="_blank">&#128194;</a>
-      <a href="#" target="_blank">&#128194;</a>
-    </nav>
+    <section id="MO2">
+      <h1>Modulo 2 JavaScript</h1>
+      <h2>Ejercicios :</h2>
+      <nav class="modos">
+        <a href="#" target="_blank">&#128194;</a>
+        <a href="#" target="_blank">&#128194;</a>
+        <a href="#" target="_blank">&#128194;</a>
+        <a href="#" target="_blank">&#128194;</a>
+        <a href="#" target="_blank">&#128194;</a>
+        <a href="#" target="_blank">&#128194;</a>
+        <a href="#" target="_blank">&#128194;</a>
+        <a href="#" target="_blank">&#128194;</a>
+      </nav>
+    </section>
 
     
   </body>

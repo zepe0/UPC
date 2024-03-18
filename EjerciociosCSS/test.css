@@ -1,0 +1,136 @@
+body {
+    background: #11375c;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav {
+    text-align: center;
+    margin: 20px;
+    font-family: fantasy;
+    background: linear-gradient(to right, rgba(189, 156, 36, 0.566), rgb(211, 15, 152));
+    border-radius: 4px;
+    padding: 15px;
+
+}
+
+nav>a {
+    padding: 8px;
+    border: solid black;
+    border-width: thin;
+    margin: 4px;
+    color: orange;
+
+}
+
+table,
+td,
+th {
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0.4rem;
+}
+
+th {
+    background: #2bc538;
+}
+
+td {
+    width: 80px;
+    text-align: center;
+
+}
+
+caption {
+    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+    color: rgb(142, 218, 117);
+}
+
+img {
+    width: 90px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: center;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    border-right: none;
+    border-left: none;
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+    padding: 12px;
+}
+
+span {
+    color: red;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.input-group-name {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.input-group-tel {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red
+}
+
+.tel {
+    width: 36%;
+    text-align: end;
+    margin-right: 10px;
+}
+
+.name {
+    border-bottom: none;
+
+}
+
+.email {
+    border: none;
+}
+
+.w-m {
+    width: 180px;
+}
+
+.tablaid {
+    align-items: flex-end;
+    text-align: end;
+}
