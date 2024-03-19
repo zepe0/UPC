@@ -8,7 +8,7 @@
     <title>Els nostres productes de proximitat</title>
   </head>
   <body>
-    <h1>La botiga que t’ofereix productes de proximitat</h1>
+    <h1 id="home">La botiga que t’ofereix productes de proximitat</h1>
     <nav>
       <div><a href="#Tablas">Tablas</a></div>
       <div>
@@ -32,9 +32,11 @@
       <tr>
         <td>Peral 'Louise Bonne'</td>
         <td>
-          <img
-            src="https://www.planfor.es/Donnees_Site/Produit/Images/0119/peral-louise-bonne_ES_100_0003321.jpg"
-          />
+          <a href="#Cards">
+            <img
+              src="https://www.planfor.es/Donnees_Site/Produit/Images/0119/peral-louise-bonne_ES_100_0003321.jpg"
+            />
+          </a>
         </td>
         <td>
           El peral adornará perfectamente los medios y grandes jardines. En un
@@ -46,9 +48,11 @@
       <tr>
         <td>Plátanos de Canarias maduro</td>
         <td>
-          <img
-            src="https://comefruta.es/wp-content/uploads/platanos-de-canarias.jpg.webp"
-          />
+          <a href="#Cards">
+            <img
+              src="https://comefruta.es/wp-content/uploads/platanos-de-canarias.jpg.webp"
+            />
+          </a>
         </td>
         <td>
           Plátanos de Canarias verdes. El plátano, como la mayor parte de frutas
@@ -138,13 +142,13 @@
     </table>
 
     <form>
-      <legend>?</legend>
+      <legend>Contactamos?</legend>
 
       <fieldset class="name">
         Nombre y apellidos <span> * </span>
 
         <div class="input-group-name">
-          <input type="text" id="nombre" name="nombre" required />
+          <input type="text" id="nombre" name="nombre" from required />
           <label for="nombre">Nombre</label>
           <input type="text" id="apellido" name="primerapellido" />
           <label for="nombre">Primer apellido</label>
@@ -202,6 +206,6 @@
         <p>32.99€</p>
       </div>
     </div>
-    <a href="#Tablas">Volver a las Tablas</a>
+    <a href="#home">Volver a las Tablas</a>
   </body>
 </html>
